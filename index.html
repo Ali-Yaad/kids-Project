@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Fun App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Kids Fun App!</h1>
+    </header>
+    <main>
+        <section id="color-changer">
+            <h2>Change the Background Color!</h2>
+            <button id="color-button">Click Me!</button>
+        </section>
+
+        <section id="fun-facts">
+            <h2>Did You Know?</h2>
+            <p id="fact">Click the button to reveal a fun fact!</p>
+            <button id="fact-button">Show Fun Fact</button>
+        </section>
+
+        <section id="quiz">
+            <h2>Quick Quiz!</h2>
+            <p>What is the largest planet in our solar system?</p>
+            <button class="quiz-option" data-answer="wrong">Earth</button>
+            <button class="quiz-option" data-answer="correct">Jupiter</button>
+            <button class="quiz-option" data-answer="wrong">Mars</button>
+            <p id="quiz-result"></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

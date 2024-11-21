@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+header {
+    background-color: #ffcccb;
+    padding: 20px;
+    color: #333;
+}
+
+main {
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #444;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#color-button {
+    background-color: #87ceeb;
+    color: white;
+}
+
+#fact-button {
+    background-color: #ffa07a;
+    color: white;
+}
+
+.quiz-option {
+    background-color: #98fb98;
+    color: #333;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#quiz-result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
